@@ -1,0 +1,156 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Hind:wght@500&family=Lora:ital,wght@1,500&family=Mate&family=Montserrat:wght@500&family=Poppins:wght@100;400&family=Yellowtail&display=swap');
+font-family: 'Arvo', serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Mate', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yellowtail', cursive;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Hind:wght@500&family=Lora:ital,wght@1,500&family=Mate&family=Montserrat:wght@500&family=Yellowtail&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+=================================
+            PreLoader
+=================================
+*/
+#preloader {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+=================================
+            NavBar
+=================================
+*/
+nav a {
+    font-family: 'Arvo', serif;
+}
+
+/* 
+==================================================
+                INTRODUCTION
+==================================================
+*/
+.content p:nth-child(1) {
+    font-family: 'Lora', serif;
+}
+
+.content p:nth-child(2) {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content p:nth-child(3) span {
+    font-family: 'Lora', serif;
+}
+
+.content p:nth-child(4) {
+    font-family: 'Hind', sans-serif;
+}
+
+/*
+=================================
+        Bottom NavBar
+=================================
+*/
+.bottomnavbar a {
+    font-family: 'Arvo', serif;
+}
+
+/*
+=================================
+         About Me
+=================================
+*/
+.about-text h1 {
+    font-family: 'Lora', serif;
+}
+
+.about-text p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+=================================
+         Skills
+=================================
+*/
+.skill-head,
+.skill-subhead {
+    font-family: 'Lora', serif;
+}
+
+.card {
+    font-family: 'Mate', serif;
+}
+
+/*
+=================================
+            Project
+=================================
+*/
+.project-head {
+    font-family: 'Lora', serif;
+}
+
+.desc-p1,
+.desc-p2 {
+    font-family: 'Hind', sans-serif;
+}
+
+.head-p1,
+.head-p2 {
+    font-family: 'Lora', serif;
+}
+
+.platform-p1,
+.platform-p2 {
+    font-family: 'Lora', serif;
+}
+
+/*
+=================================
+          Contact US
+=================================
+*/
+.contact-content h1 {
+    font-family: 'Yellowtail', cursive;
+}
+
+.contact-content p {
+    font-family: 'Lora', serif;
+}
+
+.touch h3 {
+    font-family: 'Mate', serif;
+}
+
+.text p {
+    font-family: 'Hind', sans-serif;
+}
+
+form h2 {
+    font-family: 'Arvo', serif;
+}
+
+.inputBox span {
+    font-family: 'Arvo', serif;
+}
+
+.inputBox input[type="Submit"],
+.inputBox input[type="Reset"] {
+    font-family: 'Arvo', serif;
+}
+
+/*
+=================================
+            Footer
+=================================
+*/
+.wrapper div {
+    font-family: 'Arvo', serif;
+}

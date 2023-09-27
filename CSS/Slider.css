@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+.front {
+    background-image: url(html5-fill.svg);
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.223);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    transition: 1s;
+    backface-visibility: hidden;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.roll {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+.inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px 1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px 1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 8px rgba(255, 255, 255, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+#number {
+    font-weight: 600;
+    color: white;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+}
+
+.html {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Mate', serif;
+}
+
+.pechtml {
+    animation: pechtml 2s linear forwards;
+}
+
+@keyframes pechtml {
+    100% {
+        stroke-dashoffset: 60;
+    }
+}
+
+.peccss {
+    animation: peccss 2s linear forwards;
+}
+
+@keyframes peccss {
+    100% {
+        stroke-dashoffset: 94;
+    }
+}
+
+.pecjs {
+    animation: pecjs 2s linear forwards;
+}
+
+@keyframes pecjs {
+    100% {
+        stroke-dashoffset: 283;
+    }
+}
+
+.pecjq {
+    animation: pecjq 2s linear forwards;
+}
+
+@keyframes pecjq {
+    100% {
+        stroke-dashoffset: 236;
+    }
+}
+
+.pecreact {
+    animation: pecreact 2s linear forwards;
+}
+
+@keyframes pecreact {
+    100% {
+        stroke-dashoffset: 284;
+    }
+}
+
+.pecc {
+    animation: pecc 2s linear forwards;
+}
+
+@keyframes pecc {
+    100% {
+        stroke-dashoffset: 141;
+    }
+}
+
+.pecccc {
+    animation: pecccc 2s linear forwards;
+}
+
+@keyframes pecccc {
+    100% {
+        stroke-dashoffset: 141;
+    }
+}
+
+.pecgit {
+    animation: pecgit 2s linear forwards;
+}
+
+@keyframes pecgit {
+    100% {
+        stroke-dashoffset: 141;
+    }
+}
