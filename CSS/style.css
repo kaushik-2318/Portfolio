@@ -25,9 +25,16 @@ a {
     align-items: center;
     justify-content: center;
     font-size: 25px;
+    transition: all .75s ease;
+    opacity: 1;
 }
 
-.preloaderremove {
+#preloader.preloaderremove {
+    height: 0vh;
+    opacity: 0;
+}
+
+.preloaderhide {
     visibility: hidden;
     display: none;
 }

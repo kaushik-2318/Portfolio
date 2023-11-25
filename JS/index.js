@@ -1,9 +1,13 @@
 var loader = document.getElementById("preloader");
 var preloaderremove = document.getElementsByClassName("preloaderremove");
+var preloaderhide = document.getElementsByClassName(".preloaderhide");
 
 setTimeout(function () {
     loader.classList.add("preloaderremove");
 }, 1000);
+setTimeout(function () {
+    loader.classList.add("preloaderhide");
+}, 1005);
 
 var typed = new Typed("#element", {
     strings: ["Web Developer", "Full Stack Developer"],
