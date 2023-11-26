@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+    #cursor {
+        display: none;
+    }
+}
 /*
 =================================
             NavBar
@@ -23,6 +28,9 @@
 
     .link2 {
         display: flex;
+    }
+    .name {
+        font-weight: lighter;
     }
 }
 
