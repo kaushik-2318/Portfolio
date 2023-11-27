@@ -52,12 +52,12 @@ a {
     pointer-events: none;
     transform: translate(-50%, -50%);
     z-index: 100;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(.5px);
     position: absolute;
 }
 
 .cursor-big {
-    scale: 1.3;
+    scale: 2;
 }
 
 /*
@@ -196,6 +196,7 @@ nav a:hover {
     position: absolute;
     margin-top: 77vh;
     margin-left: 2vh;
+    position: fixed;
 }
 
 #github,
