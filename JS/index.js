@@ -35,7 +35,6 @@ $(".contactform").on("mouseenter", function () {
 });
 $(window).scroll(function (event) {
     var sc = $(window).scrollTop();
-    console.log(sc)
     if (sc > 40) {
         $("nav").addClass("hide");
         $(".bottomnavbar").removeClass("hide");
