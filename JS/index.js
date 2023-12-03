@@ -35,7 +35,6 @@ $(".contactform").on("mouseenter", function () {
 });
 $(window).scroll(function (event) {
     var sc = $(window).scrollTop();
-    console.log(sc)
     if (sc > 40) {
         $("nav").addClass("hide");
         $(".bottomnavbar").removeClass("hide");
@@ -43,10 +42,10 @@ $(window).scroll(function (event) {
         $("nav").removeClass("hide");
         $(".bottomnavbar").addClass("hide");
     }
-    if(sc<3981){
+    if (sc < 3981) {
         $("#icon-scroll").css("margin-top", `77vh`);
     }
-    else{
+    else {
         $("#icon-scroll").css("margin-top", `71vh`);
     }
 });
