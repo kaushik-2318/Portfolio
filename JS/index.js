@@ -17,8 +17,8 @@ var typed = new Typed("#element", {
 });
 
 $(window).on("mousemove", function (e) {
-    $("#cursor").css("top", `${e.pageY}px`);
-    $("#cursor").css("left", `${e.pageX}px`);
+    $("#cursor").css("top", `${e.clientY}px`);
+    $("#cursor").css("left", `${e.clientX}px`);
 });
 $("a").on("mouseleave", function () {
     $("#cursor").removeClass("cursor-big");
