@@ -15,7 +15,6 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("/images/background-crew-desktop.jpg");
     box-shadow: 0 5px 5px #000000b3;
     background-repeat: no-repeat;
     background-size: contain;
@@ -26,13 +25,13 @@
 }
 
 #particles canvas {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("/images/moonbackground.jpg");
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("https://res.cloudinary.com/dococv5lg/image/upload/v1722029434/moonbackground_kytjh6.webp");
     background-repeat: no-repeat;
     align-items: center;
     animation-delay: 3s;
     background-position-x: center;
     background-position-y: 250%;
-    animation: riseUpBackground 1s cubic-bezier(0.68, -0.55, 0.27, 2.55) forwards;
+    animation: riseUpBackground 1s cubic-bezier(0.68, -0.55, 0.27, 2.50) forwards;
     animation-delay: 4.0s;
 }
 
