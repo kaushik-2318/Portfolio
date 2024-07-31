@@ -6,11 +6,11 @@ import { animation } from './animation'
 export default function index() {
     useEffect(() => {
         animation();
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 4100)
     }, []);
 
-    setTimeout(() => {
-        window.scrollTo(0, 0);
-    }, 4100)
 
     return (
         <>
