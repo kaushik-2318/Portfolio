@@ -7,6 +7,11 @@ export default function index() {
     useEffect(() => {
         animation();
     }, []);
+
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 4100)
+
     return (
         <>
             <div className="preloadercontainer h-screen w-screen flex fixed justify-center z-50 items-center bg-[#141516] cursor-none">
